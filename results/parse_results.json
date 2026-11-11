@@ -1,0 +1,105 @@
+{
+ "eml_parse": {
+  "path": "数据/询价信息素材/1/Request for Quotation - Spare Parts for Airline Project.eml",
+  "subject": "Request for Quotation - Spare Parts for Airline Project",
+  "from": "Buyer C <rfq-c@customer.test>",
+  "to": "供应商 <sales@supplier.test>",
+  "date": "Mon, 07 Sep 2026 10:08:00 +0800",
+  "message_id": "<rfq-c-20260907@customer.test>",
+  "html_body": "<!--[if app]><style media=\"(max-width: 490px)\">.list_placeholder_blank {display: none;}</style><![endif]--><!--[if mso]><style>.qyreadmail-list .list_placeholder_blank, >div .list_placeholder_blank {display: none;}</style><![endif]--><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><div style=\"font-size: 14.6667px; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;;\" data-mail-from=\"wemail-pc\"><div id=\"wemail_placeholder_space\"><div><span style=\"color: rgb(15, 17, 21); font-family: system-ui, &quot;Segoe UI&quot;, sans-serif, -apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;; font-size: 16px;\">Dear Supplier,</span></div></div><div class=\"qqmail_sign\" id=\"wemailsigcontent\" signid=\"502\"><div><p class=\"ds-markdown-paragraph\" style=\"margin: 16px 0px; color: rgb(15, 17, 21); font-family: system-ui, &quot;Segoe UI&quot;, sans-serif, -apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;; font-size: 16px; background-color: rgb(255, 255, 255);\">Please provide a formal quotation for the spare parts listed in the attached document, which will be used for an airline maintenance project.</p><p class=\"ds-markdown-paragraph\" style=\"margin: 16px 0px; color: rgb(15, 17, 21); font-family: system-ui, &quot;Segoe UI&quot;, sans-serif, -apple-system, BlinkMacSystemFont, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;; font-size: 16p",
+  "attachments": [
+   {
+    "filename": "Quote.pdf",
+    "content_type": "application/octet-stream",
+    "size": 6312,
+    "sha256": "2d570917dc145663b68719f468179499ef3f1aa06e0e5e1b250eb695576d505b"
+   }
+  ]
+ },
+ "pdf_form_parse": {
+  "source": "数据/询价信息素材/1/附件/Quote.pdf",
+  "pages": 2,
+  "header": {
+   "item": "Item",
+   "part_no": "Part No",
+   "qty_required": "Qty Required",
+   "list": "List",
+   "cost": "Cost",
+   "delivery": "Delivery",
+   "condition": "Condition"
+  },
+  "template_detected": true,
+  "rows": [
+   {
+    "item": "0001",
+    "part_no": "GSK-001",
+    "qty_required": "2  Each",
+    "list": "BLANK_TO_FILL",
+    "cost": "BLANK_TO_FILL",
+    "delivery": "BLANK_TO_FILL",
+    "condition": "BLANK_TO_FILL"
+   },
+   {
+    "item": "0002",
+    "part_no": "GSK-002",
+    "qty_required": "5  Each",
+    "list": "BLANK_TO_FILL",
+    "cost": "BLANK_TO_FILL",
+    "delivery": "BLANK_TO_FILL",
+    "condition": "BLANK_TO_FILL"
+   },
+   {
+    "item": "0003",
+    "part_no": "GSK-003",
+    "qty_required": "2  Each",
+    "list": "BLANK_TO_FILL",
+    "cost": "BLANK_TO_FILL",
+    "delivery": "BLANK_TO_FILL",
+    "condition": "BLANK_TO_FILL"
+   },
+   {
+    "item": "0004",
+    "part_no": "GSK-004",
+    "qty_required": "2  Each",
+    "list": "BLANK_TO_FILL",
+    "cost": "BLANK_TO_FILL",
+    "delivery": "BLANK_TO_FILL",
+    "condition": "BLANK_TO_FILL"
+   },
+   {
+    "item": "0005",
+    "part_no": "GSK-005",
+    "qty_required": "3  Each",
+    "list": "BLANK_TO_FILL",
+    "cost": "BLANK_TO_FILL",
+    "delivery": "BLANK_TO_FILL",
+    "condition": "BLANK_TO_FILL"
+   },
+   {
+    "item": "0006",
+    "part_no": "GSK-006",
+    "qty_required": "4  Each",
+    "list": "BLANK_TO_FILL",
+    "cost": "BLANK_TO_FILL",
+    "delivery": "BLANK_TO_FILL",
+    "condition": "BLANK_TO_FILL"
+   },
+   {
+    "item": "0007",
+    "part_no": "GSK-007",
+    "qty_required": "4  Each",
+    "list": "BLANK_TO_FILL",
+    "cost": "BLANK_TO_FILL",
+    "delivery": "BLANK_TO_FILL",
+    "condition": "BLANK_TO_FILL"
+   }
+  ],
+  "blank_columns": [
+   "list",
+   "cost",
+   "delivery",
+   "condition"
+  ],
+  "row_count": 7
+ }
+}
